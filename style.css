@@ -114,20 +114,23 @@ body {
     justify-content: space-evenly; /*distribui os elementos igualmente na linha*/
     align-items: center;
     padding: 1rem;
+    border: none;
 }
 
 .app-donwload {
     height: 3rem;
     width: 10rem;
     background-size: cover;  
+    border: none;
 }
 
 .app-donwload:nth-child(1) {
-    background-image:url(/image/apllestore_button.png);
+    background-image:url("apllestore_button.png");
+    background-position: center;
 }
 
 .app-donwload:nth-child(2) {
-    background-image:url(/image/playstore_button.png);
+    background-image:url("playstore_button1.png");
 }
 
 
